@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background-color:#24476B;
+  font-family: Open Sans;
+}
+
+input {
+  border:1px solid #cccccc;
+  display:block;
+  width:100%;
+  font-size:2rem;
+  height:4rem;
+}
+
+button {
+  border:none;
+  box-shadow:none;
+  background:#3399cc;
+  color:white;
+  font-size:1rem;
+  padding:10px 20px;
+  font-family: Open Sans;
+}
+
+h3 {
+  color:white;
+  background:#3399cc;
+  padding:20px;
+  text-align:center;
+  margin:0;
+  margin-bottom:20px;
+}
+
+button:hover {
+  background-color:#2288bb;
+}
+
+form input, form button {
+  margin-bottom:20px;
+}
+
+label {
+  display:none;
+}
+
+.login-form {
+   width:400px;
+  margin:0 auto;
+  background:#f0f0f0;
+}
+
+.login-form form {
+  padding:0 20px;
+}
+
+.show-hide-trigger {
+  width:100px;
+  margin:0 auto;
+  display:block;
+}
+
+.submit-button {
+  width:100%;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #3399cc;
+  margin:0 auto;
+  margin-top:10px;
+}
+
+.show-hide-container {
+  display:none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+nav li {
+  float: left;
+  margin: 5px 10px;
+}

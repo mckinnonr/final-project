@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Single Traveler Questionnaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Cruise Lover's Meetup</h1>
+  <h1>Single Traveler Questionnaire</h1>
+  <p>Find your cabin-mate match by completing the following questions:</p>
+  <p>Not a member?  Sign-up for free here: <a href="http://www.meetup.com/Cruise-Lovers-Meetup/">Cruise Lover's Meetup</a></p>
+</header>
+
+<form>
+  <h2>My travel interests:</h2>
+  <div>
+    <p>Cruise length:</p>
+    <input type="radio" name="Length" value="7 days" id="7" />7 days
+    <input type="radio" name="Length" value="longer" id="7+" />Longer than 7 days
+    <input type="radio" name="Length" value="any" id="Any" />Any length
+  </div>
+  <div>
+    <p>Cabin Category:</p>
+    <input type="radio" name="Category" value="7 days" id="1" />Inside
+    <input type="radio" name="Category" value="longer" id="2" />Ocean View
+    <input type="radio" name="Category" value="longer" id="3" />Balcony
+    <input type="radio" name="Category" value="longer" id="4" />Suite
+  </div>
+  <div>
+    <p>Cruise Itinerary:</p>
+    <select>
+      <option value="alaska" selected="selected">Alaska</option>
+      <option value="caribbean">Caribbean</option>
+      <option value="panama">Panama Canal</option>
+      <option value="costal">Pacific Coastal</option>
+      <option value="europe">Europe</option>
+      <option value="asia">Asia</option>
+      <option value="sp">South Pacific</option>
+      <option value="sa">South America</option>
+    </select>
+  </div>
+  <div>
+    <p>Date range:</p>
+  </div>
+  <h2>About me:</h2>
+  <div>
+    <input type="radio" name="gender" value="male" id="male" />Male
+    <input type="radio" name="gender" value="female" id="female" />Female
+  </div>
+  <div>
+    <input type="radio" name="sleep" value="sound" id="male" />Sound sleeper
+    <input type="radio" name="sleep" value="snore" id="female" />Snorer
+  </div>
+  <div>
+    <input type="radio" name="awake" value="sound" id="male" />Early riser
+    <input type="radio" name="awake" value="snore" id="female" />Late night active
+  </div>
+  <div>
+    <input type="radio" name="share" value="sound" id="male" />Room share only
+    <input type="radio" name="share" value="snore" id="female" />Social companion desired
+  </div>
+  <div>
+    <textarea name="message" cols="10" rows="4">Enter your message...</textarea>
+  </div>
+  <div>
+    <input type="checkbox" name="terms" id="terms" />
+    <label for="terms">I agree to the terms and conditions</label>
+  </div>
+  <div>
+    <button type="submit">Submit Form</button>
+  </div>
+</form>
+
+<footer>
+  <h2>Cruise Lovers Meetup</h2>
+  <p><a href="mailto:rmckinnon@cruiseshipbooking.ca">Email Ross</a></p>
+</footer>
+</body>
+</html>

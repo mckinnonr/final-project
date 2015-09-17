@@ -1,0 +1,160 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of CSS Reset*/
+
+@font-face {
+    font-family: 'Brush';
+    src: url('fonts/AlexBrush-Regular.ttf');
+}
+h1 {
+	font-size: 40pt;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'Brush';
+}
+h2 {
+	font-size: 20pt;
+	text-align: center;
+	margin: 30px;
+}
+h3 {
+	font-size: 20px;
+	text-align: center;
+	margin: 30px;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+nav li {
+  float: left;
+  margin: 5px 10px;
+}
+aside ul {
+	list-style: circle;
+	margin: 15px 40px;
+}
+p {
+	  margin: 15px 40px;
+}
+.align-center {
+	clear: left;
+	display: block;
+	margin: auto;
+}
+header {
+		background-color: grey;
+    width: 100%;
+    float: left;
+}
+header p {
+	text-align: center;
+}
+@media all and (min-width: 480px) {
+  article {
+  width: 100%;
+  float: left;
+  }
+  aside {
+  width: 100%;
+  float: left;
+	background-color: lightgrey;
+  }
+}
+@media all and (min-width: 720px) {
+  article {
+  width: 100%;
+  float: center;
+  }
+  aside {
+  width: 100%;
+  float: center;
+	background-color: lightblue;
+  }
+}
+@media all and (min-width: 1024px) {
+  article {
+  width: 50%;
+  float: left;
+  }
+  aside {
+	margin: 25px;
+  width: 45%;
+  float: right;
+	background-color: lightgrey;
+  }
+}
+.icon {
+	text-align: center;
+}
+footer {
+		clear: both;
+  	background: #808080 url("images/bgrfooter.jpg") no-repeat scroll center center / cover;
+	  height: 200px;
+	  margin-top: 20px;
+	  float: left;
+	  width: 100%;
+}
+footer p {
+	text-align: center;
+	margin-top: 100px;
+}
+footer h2 {
+	color: white;
+	border-style:
+}
+
+/*Survey page:*/
+form {
+  width: 480px;
+	margin: auto;
+  float: center;
+  background-color: lightgrey;
+}
